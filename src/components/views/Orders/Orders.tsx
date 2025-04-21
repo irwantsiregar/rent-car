@@ -1,12 +1,10 @@
 import ButtonsAction from "@/components/commons/ButtonsAction/ButtonsAction";
 import DataTable from "@/components/ui/DataTable";
 import useChangeUrl from "@/hooks/useChangeUrl";
-import { totalPages } from "@/utils/totalPages";
 import { Chip, useDisclosure } from "@heroui/react";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import { Key, ReactNode, useCallback, useEffect, useId } from "react";
-import { CiStar } from "react-icons/ci";
 import { COLUMN_LISTS_ORDERS } from "./Orders.constants";
 import useOrders from "./useOrders";
 
