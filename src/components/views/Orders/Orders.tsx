@@ -84,6 +84,7 @@ const Orders = () => {
         case "actions":
           return (
             <ButtonsAction
+              onPressButtonAdd={() => {}}
               onPressButtonDetail={() => {}}
               onPressButtonUpdate={() => {
                 setSelectedId(`${post?.id}`);
