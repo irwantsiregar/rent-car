@@ -3,7 +3,7 @@ import Cars from "@/components/views/Cars";
 
 function CarsPage() {
   return (
-    <DashboardLayout title="Cars" description="List of all car" type="admin">
+    <DashboardLayout title="Cars" description="List of all car">
       <Cars />
     </DashboardLayout>
   );

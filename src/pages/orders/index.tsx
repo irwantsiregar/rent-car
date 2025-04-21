@@ -6,7 +6,6 @@ function OrdersPage() {
     <DashboardLayout
       title="Orders"
       description="List of all car in orders"
-      type="admin"
     >
       <Orders />
     </DashboardLayout>

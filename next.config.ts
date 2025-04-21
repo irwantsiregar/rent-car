@@ -3,6 +3,14 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   reactStrictMode: true,
+  images: {
+    remotePatterns: [
+      {
+        hostname: "**",
+        protocol: "https",
+      },
+    ],
+  },
   async redirects() {
     return [
       {
